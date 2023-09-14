@@ -1,0 +1,498 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.web-page{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 0px auto;
+    width:1024px
+}
+.container{
+    margin: 0px auto;
+    width:1340px
+}
+body{
+    background: white;
+}
+.homepage{
+    background: #004274;
+    height: 70px;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    padding: 40px;
+    line-height: 70px;
+}
+nav{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+nav .menu-btn i{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+nav ul li{
+    margin: 20px;
+    line-height: 10px;
+    display: inline-block;
+}
+a:hover,
+a.active{
+    color: aqua;
+}
+
+.all{
+    float: right;
+    margin-right: 100px;
+    font-size: 20px;
+    line-height: 70px;
+    display: inline-block;
+    color: white;
+}
+.callus{
+    margin: 50px;
+}
+.btn{
+    padding: 10px 25px;
+    color:white;
+    background: #00AEFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.textsearch{
+    background: white;
+    width: 100%;
+}
+.searchlogo{ 
+    padding: 10px;
+    width: 450px;
+    border-radius: 5px;
+}
+select{
+    width: 80px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.btnbtn{
+    border: none;
+    outline: none;
+    color: white;
+    background: #004274;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+.firstimage{
+    background: url('image1.jpg');
+    width: 100%;
+    height: 690px;
+}
+.content{
+    width: 50%;
+}
+.para{
+    padding-top: 150px;
+    color: white;
+    font-size: 20px;
+}
+.parag{
+    color: white;
+    font-size: 50px;
+}
+.paragra{
+    color: white;
+    font-size: 20px;
+}
+.paragraph{
+    color: white;
+    font-size: 45px;
+}
+.price{
+    border: none;
+    outline: none;
+    color: white;
+    background: #00AEFF;
+    padding: 15px 25px 15px;
+    border-radius: 5px;
+}
+.topic{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.overall-mini{
+    padding-bottom: 70px;
+}
+.pa{
+    margin: 20px;
+    font-size: 17px;
+    color: rgb(155, 153, 153);
+}
+.mini-top{
+    display: inline-block;
+    margin: 9px;
+    border: 1px solid rgb(209, 208, 208);
+    width: 425px;
+}
+number{
+    color: #00AEFF;
+    padding: 20px;
+    font-size: 20px;
+}
+h2{
+    margin: 15px 20px;
+}
+.mini-bottom ul{
+    border-top: 1px solid rgb(209, 208, 208);
+}
+.mini-bottom ul li{ 
+    display: inline-block;
+    padding: 15px 28px;
+}
+.help-page{
+    background: url('image2.jpg');
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    color: white;
+}
+.find-next{
+    background: #00AEFF;
+    display: inline-block;
+    padding: 40px 20px;
+    width: 400px;
+}
+.find-next p{
+    width: 100%;
+}
+.help-page h1{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.explore{
+    width: 100%;
+    height: 375px;
+    padding-top: 70px;
+    background: white;
+}
+.explore-left h1{
+    padding-bottom: 15px;
+}
+.explore-left{
+    width: 30%;
+    background: white;
+    display: inline-block;
+    
+}
+.btnbtnbtn{
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #00AEFF;
+    color: white;
+    font-size: 15px;
+    width: 170px;
+    height: 45px;
+}
+.explore-right{
+    background: white;
+    display: inline-block;
+    margin-top: 25px;
+    
+}
+.explore-icon{
+    display: inline-block;
+    padding: 20px 45px;
+}
+.explore-icon:hover{
+    background: #F2F4F8;
+    color: #00AEFF;
+}
+.explore-icon div{
+    text-align: center;
+}
+.agent{
+    margin: 9px;
+    display: inline-block;
+}
+.agent h3{
+    text-align: center;
+}
+.agent h3:hover{
+    color: #00AEFF;
+}
+.agent p{
+    color: rgb(155, 153, 153);
+    text-align: center;
+    padding: 10px;
+}
+.Subscribe-right{
+    width: 50%;
+    display: inline-block;
+}
+.Subscribe-left{
+    background: #004274;
+    display: inline-block;
+    width: 50%;
+    color: white;
+    height: 400px;  
+    padding-top: 50px;
+    padding-left: 10px;
+}
+.Subscribe-left h1{
+    padding-bottom: 15px;
+}
+.Subscribe-left p{
+    color: rgb(155, 153, 153);
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.Subscribe-left .text-email{
+    background: none;
+    outline: none;
+    padding: 0px;
+    width: 80%;
+    height: 30px;
+    border: 0;
+    border-bottom: 2px solid #BECCD6;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px
+}
+.Subscribe-right{
+    float: right;
+}
+.Subscribe-right img{
+    width: 100%;
+    height: 400px;
+}
+.last-page{
+    background: white;
+    height: 400px;
+    padding-top: 50px;
+}
+.last-page-left{
+    background: white;
+    display: inline-block;
+    padding-right: 51px;
+    padding-bottom: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.last-page-left ul{
+    padding-left: 20px;
+    color: rgb(155, 153, 153);
+}
+.last-page-left ul li:hover{
+    color: #00AEFF;
+}
+.last-page-left ul li{
+    display: block;
+}
+#click{
+    display: none;
+}
+
+
+
+
+/** 
+Responsive Css*/
+
+@media only screen and (max-width: 415px){
+    
+    .wrapper{
+        margin: 0px auto;
+        width: 100%
+    }
+    .container{
+        margin: 0px auto;
+        width: 380px
+    }
+    .all{
+        display: none;
+    }
+    .textsearch{
+        padding: 10px;
+    }
+    .btnbtn{
+        margin: 5px;
+    }
+    .searchlogo{
+        width: 300px;
+        display: block;
+        margin: 5px;
+    }
+    .firstimage{
+        width: 100%;
+        height: 600px;
+        padding-left: 15px;
+    }
+    .content{
+        width: 90%;
+    }
+    .topic{
+        text-align: center;
+    }
+    .mini-top{
+        display: block;
+        width: 340px;
+        margin: 15px;
+    }
+    .mini-bottom ul li{ 
+        padding: 15px;
+    }
+    .mini-top img{
+        width: 100%;
+        display: flex;
+    }
+    .help-page{
+        height: 100%;
+        display: block;
+    }
+    .find-next{
+        width: 100%;
+    }
+    .explore{
+        height: 100%;
+    }
+    .explore-left{
+        padding-left: 10px;
+        width: 100%;
+    }
+    .explore-right {
+        display: block;
+    }
+    .explore-icon{
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .explore-icon div{
+        text-align: center;
+    }
+    .agent img{
+        width: 350px;
+    }
+    .Subscribe-left{
+        padding-left: 20px;
+        display: block;
+        width: 100%;
+    }
+    .Subscribe-right{
+        float: left;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        background: #004274;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    nav ul li{
+        display: block;
+        padding: 60px;
+        font-size: 35px;
+        display: block;
+
+    }
+    a:hover,
+    a.active{
+        color: aqua;
+    }
+    nav .menu-btn i{
+        display: block;
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+}
+
+
+
+
+/* @media screen and (min-width: 600px) {
+
+.homepage nav ul{
+    display: none;
+}
+.homepage .all label{
+    display: none;
+} 
+  .textsearch{
+    padding: 10px;
+    display: inline-block;
+    height: 100%;
+  }
+  .textsearch input ,.textsearch select{
+    display: inline-block;
+  }
+} */
+
+  /* .homepage nav ul,.homepage .all {
+    display: none;
+  }
+  .textsearch{
+      padding:5px;
+      display: inline-block;
+      height: 100%;
+  }
+  
+  .textsearch input,.textsearch select{
+      display: inline;
+  }
+  .searchlogo{
+      width : 100px;
+  }
+
+  .firstimage{
+      background-size: cover;
+  }
+  .para{
+      padding: 40px 20px;
+  }
+  .parag{
+      padding: 20px;
+  }
+  .paragra{
+      padding: 20px;
+  } */
+
+/* .btn {
+    padding: 10px;
+    margin: 10px
+}
+
+.btn-green{
+    background-color: green;
+    
+}
+
+
+.btn-blue{
+    background-color: blue;
+    
+}
+
+class= "btn btn-green" */

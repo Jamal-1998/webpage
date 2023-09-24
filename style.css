@@ -95,7 +95,7 @@ select{
     border-radius: 5px;
 }
 .firstimage{
-    background: url('image1.jpg');
+    background: url('image/image1.jpg');
     width: 100%;
     height: 690px;
 }
@@ -162,7 +162,7 @@ h2{
     padding: 15px 28px;
 }
 .help-page{
-    background: url('image2.jpg');
+    background: url('image/image2.jpg');
     width: 100%;
     height: 550px;
     text-align: center;
@@ -432,67 +432,4 @@ Responsive Css*/
 
 
 
-/* @media screen and (min-width: 600px) {
 
-.homepage nav ul{
-    display: none;
-}
-.homepage .all label{
-    display: none;
-} 
-  .textsearch{
-    padding: 10px;
-    display: inline-block;
-    height: 100%;
-  }
-  .textsearch input ,.textsearch select{
-    display: inline-block;
-  }
-} */
-
-  /* .homepage nav ul,.homepage .all {
-    display: none;
-  }
-  .textsearch{
-      padding:5px;
-      display: inline-block;
-      height: 100%;
-  }
-  
-  .textsearch input,.textsearch select{
-      display: inline;
-  }
-  .searchlogo{
-      width : 100px;
-  }
-
-  .firstimage{
-      background-size: cover;
-  }
-  .para{
-      padding: 40px 20px;
-  }
-  .parag{
-      padding: 20px;
-  }
-  .paragra{
-      padding: 20px;
-  } */
-
-/* .btn {
-    padding: 10px;
-    margin: 10px
-}
-
-.btn-green{
-    background-color: green;
-    
-}
-
-
-.btn-blue{
-    background-color: blue;
-    
-}
-
-class= "btn btn-green" */
